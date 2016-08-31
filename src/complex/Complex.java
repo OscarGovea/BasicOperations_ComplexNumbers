@@ -24,7 +24,7 @@ public class Complex {
 	}
 	
 	public void sus(Complex a, Complex b){
-		this.real=a.getReal()-b.getReal();
-		this.img=a.getImg()-b.getImg();
+		this.real=((a.getReal()*b.getReal())-(a.getImg()*b.getImg()));
+		this.img=((a.getReal()*b.getImg())+(a.getImg()*b.getReal()));
 	}
 }
