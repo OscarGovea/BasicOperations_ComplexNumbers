@@ -23,8 +23,8 @@ public class Complex {
 		this.img = img;
 	}
 	
-	public void sum(Complex a, Complex b){
-		this.real=a.getReal()+b.getReal();
-		this.img=a.getImg()+b.getImg();
+	public void sus(Complex a, Complex b){
+		this.real=a.getReal()-b.getReal();
+		this.img=a.getImg()-b.getImg();
 	}
 }
